@@ -1,0 +1,78 @@
+# Required for authorization, but ignored after that.
+auth_response_url:
+
+# Required, provided by microsoft.
+application_id:
+
+# Required, provided by Microsoft
+client_secret:
+
+# Optional, default 5
+look_back_minutes: 5
+
+# Optional, default 0
+look_back_hours: 0
+
+# Optional, default 3. Consider the user compromised after seeing this number of e-mails.
+threshold: 3
+
+# Optional. What mailbox should be opened after logging in?
+mailbox:
+
+# Optional. Don't consider e-mails to these recipients as "Bad"
+whitelisted_recipients:
+- security@osu.edu
+
+# Optional. Don't flag these senders.
+whitelisted_senders:
+- junk@office365.microsoft.com
+
+# Required. What strings should be flagged on?
+blacklisted_strings:
+- emailmobile.icu
+- iosemail.icu
+- portalmail.icu
+- clientmailmsg.icu
+- secure2.icu
+- securemail1.icu
+- extmailread.icu
+- msgload9.icu
+- loading8.icu
+- msgmailweb.icu
+- loadcdnmsg.icu
+- loadmailweb.icu
+- webmail4.icu
+- mailweb1.icu
+- notification9.icu
+- message8.icu
+- msgload5.icu
+- portalmsgread.icu
+- user5mail.icu
+- check256ssl.icu
+- inboxloaderror.icu
+- cdnmsgload.icu
+- mail-load.icu
+- msgread18.icu
+- portalmailread.icu
+- ceifh.icu
+- inboxmsgssl.icu
+- spend-mend.icu
+- Cannot show this email
+- Cannot display this message
+- Unable to show this message
+- Unable to display this message
+- Unable to display this email
+- Cannot display this email
+- Unable to show this email
+- Cannot show this message
+- SMTP message delayed
+- POP3 message delayed
+- HTML message delayed
+- Inbox message delayed
+- IMAP message delayed
+- Click here to open full message
+- Click here to view full message
+- Click here to view this message
+- Click here to show full message
+- Click here to open this message
+- Click here to show this message
