@@ -6,7 +6,7 @@ oauthlib==2.1.0
 py-o365==0.1.0
 python-dateutil==2.7.3
 pytz==2018.5
-PyYAML==3.13
+PyYAML==5.4
 requests==2.19.1
 requests-oauthlib==1.0.0
 six==1.11.0
